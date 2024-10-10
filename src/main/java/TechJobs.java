@@ -122,7 +122,7 @@ public class TechJobs {
 
         for (HashMap<String, String> someJob : someJobs) {
             for (Map.Entry<String, String> jobSelection: someJob.entrySet()) {
-                System.out.println(jobSelection);
+                System.out.println(jobSelection.getKey() + ":\t" + jobSelection.getValue());
             }
 
 //        System.out.println("printJobs is not implemented yet");
